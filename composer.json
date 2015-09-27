@@ -1,0 +1,22 @@
+{
+    "name": "iautomation/dynamic-query",
+    "description": "",
+    "type": "library",
+    "require": {
+        "usmanhalalit/pixie": "^1.0",
+        "iautomation/dynamic-object": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua McKenzie",
+            "email": "whereyoucanemailme@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "DynamicQuery\\": "src/"
+        }
+    }
+}
