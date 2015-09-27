@@ -8,7 +8,7 @@ Coming soon; see class
 ### Example Usage
 
 ```
-$db = new \DynamicQuery\DynamicQuery('mysql', 'test', 'localhost', 'root', 'theotherworld');
+$db = new \DynamicQuery\DynamicQuery('mysql', 'test', 'localhost', 'root', '');
 $db->query('
 CREATE TABLE test
 (
