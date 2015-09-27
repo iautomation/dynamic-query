@@ -1,6 +1,7 @@
 {
     "name": "iautomation/dynamic-query",
-    "description": "",
+    "description": "Dynamic SQL query access class for php; shortcuts to do advanced queries; uses Pixie",
+    "keywords": ["php", "sql shortcuts", "query", "dynamic"],
     "type": "library",
     "require": {
         "usmanhalalit/pixie": "^1.0",
