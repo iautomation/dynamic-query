@@ -51,7 +51,7 @@ class DynamicQuery extends \Pixie\QueryBuilder\QueryBuilderHandler {
 			if(!$pk)return;
 		}
 		if(isset($changes[$pk]))unset($changes[$pk]);
-		$this->where($pk, $class->{$pk})->update($changes);
+		$this->table($table)->where($pk, $class->{$pk})->update($changes);
 	}
 
 	public function convertResult($result){
